@@ -18,7 +18,7 @@ source:
     - patches/0001-fix-scan-default-plugin-path-in-Registry-initialize.patch
 
 build:
-  number: 0
+  number: 1
   skip:
     - win
     # Skip macOS for now due to lack of upstream support
