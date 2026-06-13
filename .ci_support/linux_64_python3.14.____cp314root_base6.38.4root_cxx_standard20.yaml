@@ -15,9 +15,9 @@ docker_image:
 fmt:
 - '12.1'
 libboost_devel:
-- '1.88'
+- '1.90'
 libboost_python_devel:
-- '1.88'
+- '1.90'
 libuuid:
 - '2'
 pin_run_as_build:
@@ -27,7 +27,7 @@ pin_run_as_build:
 python:
 - 3.14.* *_cp314
 root_base:
-- 6.36.8
+- 6.38.4
 root_cxx_standard:
 - '20'
 target_platform:
