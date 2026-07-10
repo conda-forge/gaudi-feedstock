@@ -16,6 +16,11 @@ source:
     # initialises empty and lookups (e.g. EvtDataSvc) fail. Pending upstream
     # fix to be submitted as a follow-up to !1925.
     - patches/0001-fix-scan-default-plugin-path-in-Registry-initialize.patch
+    # pytest 9 removed the startdir argument from the pytest_report_header
+    # hookspec, so Gaudi's ctest_measurements_reporter plugin fails pluggy's
+    # hookimpl validation and every ctest-driven pytest run aborts. Pending
+    # submission upstream.
+    - patches/0002-fix-drop-removed-startdir-arg-from-pytest_report_hea.patch
 
 build:
   number: 2
