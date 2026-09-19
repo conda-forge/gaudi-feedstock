@@ -1,6 +1,10 @@
 context:
-  tag: v40r4
-  version: ${{ tag[1:] | replace('r', '.') | replace('p', '.') }}
+  # The autotick bot bumps versions by substituting the literal current version
+  # string in this file, so `version` has to be the literal and `tag` derived
+  # from it. With the dependency the other way round no substitution happens and
+  # no version PR is ever opened.
+  version: "40.4"
+  tag: ${{ "v" ~ (version | replace(".", "r")) }}
 
 package:
   name: gaudi
