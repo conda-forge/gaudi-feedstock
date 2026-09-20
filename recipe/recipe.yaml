@@ -69,6 +69,8 @@ requirements:
     - ${{ stdlib('c') }}
     - cmake
     - ninja
+    # Gaudi looks zstd up with pkg_check_modules, not find_package
+    - pkg-config
     # Gaudi invokes git at build/test time, and ps (procps-ng on linux) when
     # running its test suite
     - git
@@ -89,6 +91,7 @@ requirements:
     - root_cxx_standard
     - tbb-devel
     - zlib
+    - zstd
     - libuuid
     - range-v3
     - nlohmann_json
