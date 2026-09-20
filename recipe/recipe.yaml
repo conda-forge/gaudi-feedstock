@@ -3,7 +3,7 @@ context:
   # string in this file, so `version` has to be the literal and `tag` derived
   # from it. With the dependency the other way round no substitution happens and
   # no version PR is ever opened.
-  version: "40.4"
+  version: "40.6"
   tag: ${{ "v" ~ (version | replace(".", "r")) }}
 
 package:
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://gitlab.cern.ch/gaudi/Gaudi/-/archive/${{ tag }}/Gaudi-${{ tag }}.tar.gz
-  sha256: dd288f066e09237f2968a2390e80bef5580e0075896116f4d729b9b609bc25c8
+  sha256: 674b7f4063f6cb4678e92ffad8e11bd5c25523efc42eb4b66b20c539ed6844dc
   patches:
     # gaudi/Gaudi!1925 added getDefaultPluginPath() and wired it into
     # loadPluginLibrary() but not Registry::initialize(), so in a Conda env
@@ -27,7 +27,7 @@ source:
     - patches/0002-fix-drop-removed-startdir-arg-from-pytest_report_hea.patch
 
 build:
-  number: 3
+  number: 0
   skip:
     - win
     # Skip macOS for now due to lack of upstream support
@@ -69,6 +69,8 @@ requirements:
     - ${{ stdlib('c') }}
     - cmake
     - ninja
+    # Gaudi looks zstd up with pkg_check_modules, not find_package
+    - pkg-config
     # Gaudi invokes git at build/test time, and ps (procps-ng on linux) when
     # running its test suite
     - git
@@ -89,6 +91,7 @@ requirements:
     - root_cxx_standard
     - tbb-devel
     - zlib
+    - zstd
     - libuuid
     - range-v3
     - nlohmann_json
