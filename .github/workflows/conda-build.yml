@@ -382,366 +382,6 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.4.0python3.13.____cp313root_base6.36.14root_cxx_standard20
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.4.0python3.13.____cp313root_base6.38.6root_cxx_standard20
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.4.0python3.13.____cp313root_base6.38.6root_cxx_standard23
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.4.0python3.13.____cp313root_base6.40.4root_cxx_standard20
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.4.0python3.13.____cp313root_base6.40.4root_cxx_standard23
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.4.0python3.14.____cp314root_base6.36.14root_cxx_standard20
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.4.0python3.14.____cp314root_base6.38.6root_cxx_standard20
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.4.0python3.14.____cp314root_base6.38.6root_cxx_standard23
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.4.0python3.14.____cp314root_base6.40.4root_cxx_standard20
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.4.0python3.14.____cp314root_base6.40.4root_cxx_standard23
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.1python3.13.____cp313root_base6.36.14root_cxx_standard20
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.1python3.13.____cp313root_base6.38.6root_cxx_standard20
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.1python3.13.____cp313root_base6.38.6root_cxx_standard23
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.1python3.13.____cp313root_base6.40.4root_cxx_standard20
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.1python3.13.____cp313root_base6.40.4root_cxx_standard23
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.1python3.14.____cp314root_base6.36.14root_cxx_standard20
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.1python3.14.____cp314root_base6.38.6root_cxx_standard20
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.1python3.14.____cp314root_base6.38.6root_cxx_standard23
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.1python3.14.____cp314root_base6.40.4root_cxx_standard20
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.1python3.14.____cp314root_base6.40.4root_cxx_standard23
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.2python3.13.____cp313root_base6.36.14root_cxx_standard20
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.2python3.13.____cp313root_base6.38.6root_cxx_standard20
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.2python3.13.____cp313root_base6.38.6root_cxx_standard23
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.2python3.13.____cp313root_base6.40.4root_cxx_standard20
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.2python3.13.____cp313root_base6.40.4root_cxx_standard23
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.2python3.14.____cp314root_base6.36.14root_cxx_standard20
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.2python3.14.____cp314root_base6.38.6root_cxx_standard20
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.2python3.14.____cp314root_base6.38.6root_cxx_standard23
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.2python3.14.____cp314root_base6.40.4root_cxx_standard20
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_clhep2.4.7.2python3.14.____cp314root_base6.40.4root_cxx_standard23
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: skip
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
     steps:
 
     - name: Checkout code
@@ -754,6 +394,37 @@ jobs:
           docker run --rm --privileged multiarch/qemu-user-static:register --reset --credential yes
         fi
 
+    # >>> TEMPORARY DEBUG for root-project/root#23542 - revert before merging.
+    # These steps are hand-added to conda-smithy generated output and will be
+    # wiped by the next rerender, which is intended: they exist only to find out
+    # which CPU emits the AVX10 warning on conda-forge's runners.
+    - uses: prefix-dev/setup-pixi@v0.10.2
+      if: matrix.os == 'ubuntu'
+      continue-on-error: true
+      with:
+        run-install: false
+    # No continue-on-error: a job that does not reproduce fails here in a
+    # minute or two rather than building for twenty, so `gh run rerun --failed`
+    # is a cheap way to re-roll the runner allocation. A green job means the
+    # warning was reproduced.
+    - name: Probe Cling AVX10 warning (debug)
+      id: probe
+      if: matrix.os == 'ubuntu'
+      env:
+        CONFIG: ${{ matrix.CONFIG }}
+      shell: bash
+      run: bash debug-probe.sh
+    # artifacts rather than log scraping: logs expire and truncate, and on a hit
+    # this is the evidence
+    - name: Upload probe artifacts (debug)
+      if: always() && matrix.os == 'ubuntu'
+      uses: actions/upload-artifact@v4
+      with:
+        name: avx10-${{ matrix.CONFIG }}
+        path: avx10-artifacts/
+        if-no-files-found: warn
+    # <<< TEMPORARY DEBUG
+
     - name: Build on Linux
       id: build-linux
       if: matrix.os == 'ubuntu'
@@ -761,7 +432,9 @@ jobs:
         CI: github_actions
         CONDA_BLD_PATH: ${{ matrix.build_workspace_dir }}
         CONDA_FORGE_DOCKER_RUN_ARGS: ${{ matrix.docker_run_args }}
-        CONFIG: ${{ matrix.CONFIG }}
+        # the probe overrides this to the 6.36.14 variant on an interesting
+        # machine, so the original clang 18 pairing gets tested directly
+        CONFIG: ${{ steps.probe.outputs.config || matrix.CONFIG }}
         MINIFORGE_HOME: ${{ matrix.tools_install_dir }}
         DOCKER_IMAGE: ${{ matrix.DOCKER_IMAGE }}
         UPLOAD_PACKAGES: ${{ matrix.UPLOAD_PACKAGES }}
@@ -785,6 +458,18 @@ jobs:
           export IS_PR_BUILD="False"
         fi
         ./.scripts/run_docker_build.sh
+
+    # On a leaf 0x24 machine the build ran, so keep its log - the complete
+    # warning count and failing-test list is the point, not the first failure.
+    - name: Upload Gaudi build log (debug)
+      if: always() && matrix.os == 'ubuntu' && steps.probe.outcome == 'success'
+      uses: actions/upload-artifact@v4
+      with:
+        name: gaudi-build-${{ matrix.CONFIG }}
+        path: |
+          avx10-artifacts/
+          build_artifacts/**/*.log
+        if-no-files-found: warn
 
     - name: Build on macOS
       id: build-macos
